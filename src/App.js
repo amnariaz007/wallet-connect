@@ -4,6 +4,7 @@ import { configureChains, createConfig, WagmiConfig } from 'wagmi'
 import { arbitrum, mainnet, polygon, polygonMumbai, sepolia, gnosis } from 'wagmi/chains'
 import HomePage from './HomePage'
 
+
 const chains = [arbitrum, polygon, polygonMumbai, sepolia, gnosis]
 const projectId = 'YOUR_PROJECT_ID'
 
